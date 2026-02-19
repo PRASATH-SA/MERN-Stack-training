@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="email">Enter your E-mail</label>
+            <input type="text" name="email" id="email">
+            <label for="password">Pasword</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <script>
+        let name = document.getElementById('name');
+        let mail = document.getElementById('email');
+        let password = document.getElementById('password');
+        document.body.addEventListener('submit',()=>{
+            
+            if(mail.value && password.value != null){
+                (mail.value == "rajesh@favoflex.com" && password.value == "password") ? alert("Successfully Logged in!..") : alert("Incorrect username or password")
+                
+            }
+        })
+       let s = localStorage.getItem("rajesh@favoflex.com").split(',')
+        
+        async function saro() {
+            console.log("first")
+            await fetch('https://api.sathcademy.prasath.in/api/health').then(e=>e.json()).then(r=>{
+                console.log(r)
+            })
+            console.log("third")
+        }
+        saro()
+      
+    </script>
+</body>
+</html>
