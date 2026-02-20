@@ -1,0 +1,14 @@
+ol{
+    display: inline-flex;
+}
+nav{
+  background-color: rgba(137, 43, 226, 0.493);
+  box-shadow: 1px 1px 10px black;
+  width: 100%;
+}
+.app{
+  width: 100%;
+}
+body{
+  width: 100%;
+}

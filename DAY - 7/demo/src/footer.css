@@ -1,0 +1,17 @@
+footer{
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.558);
+}
+footer{
+    display: inline-flex;
+    flex-direction: row;
+}
+footer div li{
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+footer div{
+    margin: 10px;
+}
