@@ -20,10 +20,12 @@ const fruit = ['apple', 'banana', 'orange'] // map function needs a key, so we c
     }
   }
   const p = new Person("John", 30)
-
+  
   // Destructuring
 
   const [a, b, c] = first 
+
+  
 
   return (
 

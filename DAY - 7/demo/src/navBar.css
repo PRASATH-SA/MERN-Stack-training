@@ -1,11 +1,12 @@
 ol{
     display: inline-flex;
     list-style: none;
-    color:white !important;
-
+    justify-content: center;
+    align-items: center;
 }
 a{
     margin: 10px;
+    color:rgba(255, 255, 255, 0.759) !important;
 
 }
 nav{
